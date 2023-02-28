@@ -63,8 +63,12 @@ function setup() {
 }
 
 function draw() {
-  background(0);
   
+  background(0);
+  fill(200)
+  noStroke();
+  textAlign(LEFT);
+  text("Josh Ossip", 2, 15);
   
   if (!pause){
     tractor.update();
